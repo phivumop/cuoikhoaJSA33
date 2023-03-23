@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./fetch api.css">
+<style>
+    body {
+        background-color: white;
+        font-family: 'Lato', sans-serif; 
+        background-image: url('alexander-shatov-AbfCbAde4J4-unsplash.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <ul class="header_nav">
+                <li class="header_nav-item">
+                    <a href="./index.html" class="header_nav-item--link">Trang chủ</a>
+                </li>
+                <li class="header_nav-item">
+                    <a href="./Register.html" class="header_nav-item--link">Đăng ký/Đăng nhập</a>
+                </li>
+                <li class="header_nav-item">
+                    <a href="./aboutus.html" class="header_nav-item--link">Về chúng tôi</a>
+                </li>
+            </ul>
+            <div class="header_search" id="search">
+                <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+                <form>
+                    <input type="text" id="search-input" name="search" autocomplete="off">
+                  </form>
+            </div>
+        </div>
+    </div>
+ <div class="cachdong">
+    <p>dsadsadsadsaadasdasd</p>
+  <p>adasdsadsadasda</p>
+  <p>đâsdasdsadasasd</p>
+  <p>đâsdasdsadasasd</p>
+  <p>đâsdasdsadasasd</p>
+</div>
+    <div class="desc-trang-chu">
+    <h2> Hạnh phúc là gì ?</h2>
+    <p>Hạnh phúc là một trạng thái cảm xúc của con người khi được thỏa mãn một nhu cầu nào đó mang tính trừu tượng. Hạnh phúc là một cảm xúc bậc cao. Ở con người, nó mang tính nhân bản sâu sắc và thường chịu tác động của lý trí. Hạnh phúc gắn liền với quan niệm về niềm vui trong cuộc sống.</p>
+    <div class="container-fluid" >
+        <div class="row text-center">
+          <h2>🎼Nhạc ngẫu nhiên🎼</h2>  
+        </div>
+        <div class="row text-center">
+          <h3>Nhạc giúp cho ta có thể thoả mãn được thính giác và cảm xúc dẫn đến hạnh phúc</h3><br>
+        </div>
+        <div class="row text-center">
+          <div class="col-xs-6-text-right" id="Ảnh nhạc"></div>
+          <div class="col-xs-6-text-left">
+            <p id="Tên nhạc"></p>
+            <p id="Tác giả"></p>
+            <button class="button" onclick="newRandomSong()"><span>Bài khác</span></button>
+      
+          </div>
+        </div>
+      </div>
+    </div> 
+    <script src="./app.js"></script>
+    <script src="fetch-api.js"></script>
+
+</body>
+</html>
